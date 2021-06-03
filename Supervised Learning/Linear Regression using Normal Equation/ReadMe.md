@@ -1,3 +1,3 @@
-#Training Linear Model
+Training Linear Model
 
-##Google Slides
+Google Slides
