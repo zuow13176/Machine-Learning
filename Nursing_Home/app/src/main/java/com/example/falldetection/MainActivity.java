@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
         DataOutputStream dataOutputStream;
         DataInputStream dataInputStream;
         try {
-            socket = new Socket("192.168.1.72", 5050);
+            socket = new Socket("127.0.0.1", 5000);
             dataOutputStream = new DataOutputStream(socket.getOutputStream());
             dataOutputStream.writeUTF(msg);
             dataInputStream = new DataInputStream(socket.getInputStream());
